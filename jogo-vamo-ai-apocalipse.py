@@ -85,7 +85,7 @@ def pergunta_1 ():
         o jogo e se atente às regras [¬º-°]¬''')
 
 def pergunta_2 ():
-    print('''
+    print(f'''
     Quando vocês colocam o pé pra fora do bandejão, percebem o completo caos que reina na universidade.
     Mais de um foco de incêndio ergue nuvens pretas de fumaça densa e uma correria generalizada se espalhou
     pelo campus. 
@@ -111,7 +111,7 @@ def pergunta_2 ():
     escolha_b = int(input("Digite o número da sua escolha de movimento:\n- "))
 
     if escolha_b == 1:
-        print ('''
+        print (f'''
         - Vamo {nome}, corre!
         Você corre meio sem fôlego e consegue subir no ônibus junto com seus colegas, vocês se dirigem pro
         fundo e se largam nos bancos, cansados.
@@ -141,7 +141,7 @@ def pergunta_2 ():
 
 
 def pergunta_3 ():
-    print('''
+    print(f'''
     Você tem um pressentimento ruim quando vê o ônibus e desiste de entrar.
     Gabriela, Cíntia e Paulo, supersticiosos, ficam com você.
     Vocês vêem Caique e alguns colegas subirem no ônibus e alguns minutos depois ouvem a explosão de um dos 
@@ -202,7 +202,7 @@ def pergunta_3 ():
         o jogo e se atente às regras [¬º-°]¬''')
 
 def pergunta_4 ():
-    print('''
+    print(f'''
     - Ele vai conseguir se soltar, Gabi. Fica tranquila.
     Mas as palavras parecem esvaziadas de significado. A UFB está mergulhada na desordem, mas vocês continuam 
     seguindo para o Instituto.
@@ -270,18 +270,41 @@ def pergunta_4 ():
     esses três, eu não duvido. São todos mercenários. Lembra das aulas?
     - A gente precisa sair daqui, eles vão lacrar o laboratório, vamo pegar a chave e sair.
     Cíntia abre a porta e espia o corredor, está tudo limpo. Vocês se esgueiram pelo corredor até a sala dos
-    alunos, sua amiga pega a bolsa, tira a chave e a carteira de dentro e vocês saem silenciosamente. 
-    - Pra onde eles foram?
-    - Eu não sei. Onde é a saída? 
-    - A lateral é à esquerda, a principal à direita, mas 
+    alunos, mas a bolsa não está lá.
+    - Onde você pode ter deixado?
+    - No armário dos funcionários. Ou na cozinha. Não consigo lembrar.
+    - Vamos nos dividir pra ir mais rápido. 
+    O que você prefere?
+    1. Ir à esquerda pra cozinha;
+    2. Ir à direita pro vestiário dos funcionários.
     ''')
     escolha_d = int(input("Digite o número da sua escolha de movimento:\n- "))
 
     if escolha_d == 1:
-        print (''' escrever a situação de morte 4
-        ============================
-        FIM DE JOGO PRA VOCÊ [¬º-°]¬
-        ============================
+        print (f'''
+        - Eu vou pra cozinha, é à esquerda aqui né? - {nome} decide. 
+        Cíntia confirma que sim. - Vamo comigo, Gabi. Eu só andei aqui uma vez.
+        Cíntia e Paulo viram à direita, enquanto vocês caminham silenciosamente pelos corredores brancos do
+        Departamento. 
+        - É a próxima porta.
+        Vocês empurram a porta cinza, tomando o máximo de cuidado pra não fazer nenhum barulho e percebem tarde
+        demais que o cômodo não estava vazio.
+        Dois homens usando trajes completos de biossegurança NB-4, levando consigo uma pequena caixa térmica,
+        dessas usadas pra transportar amostrar biológicas sensíveis a calor.
+        - Quem são vocês? São alunas? O que estão fazendo aqui? - pergunta o professor Flávio Pepas.
+        - Ahh, eu vim pegar minha chave do carro. Tá uma loucura lá fora. A gente vai embora.
+        - Vocês não podem sair daqui, já estão contaminadas. Sinto muito.
+        E a última coisa que você e Gabriela vêem é o vermelho de um extintor de incêndio. Vocês duas caem
+        no chão.
+        - Será que eu matei elas? - pergunta o professor Márcio Minosse. 
+        - Espero que sim. Por via das dúvidas... - respondeu o professor Pepas, enquanto quebrava no chão um
+        tubo de ensaio. - Daqui a pouco vão estar mortas por contaminação. Mas a questão é, elas 
+        estavam sozinhas? Se não estiverem precisamos achar os outros, eles podem ter ouvido o que nós
+        conversamos. 
+        - Precisamos achá-los.    
+        =========================================================================================
+        FIM DE JOGO PRA VOCÊ, ATACADAS PELO PROFESSOR PEPAS E PROPOSITADAMENTE INFECTADAS [¬º-°]¬
+        =========================================================================================
         ''')
     
     elif escolha_d == 2:
@@ -292,43 +315,91 @@ def pergunta_4 ():
         o jogo e se atente às regras [¬º-°]¬''')
 
 def pergunta_5 ():
-    print(''' ''')
+    print(f'''
+    - Eu vou pro vestiário com você Cíntia. - {nome} decide. - Gabi e Paulo, dêem uma olhada na cozinha, a
+    gente encontra vocês lá, é no caminho né Cíntia?
+    Ela concorda.
+    Seus amigos vão pra esquerda e vocês viram à direita.
+    - Não tá aqui, {nome}, só pode estar na cozinha, eu tomei café lá hoje mais cedo. A gente encontra eles
+    lá, é o próximo corredor.
+    Vocês se dirigem pra sala de refeições dos funcionários quando, de repente, dão de encontro com dois
+    homens vestidos em trajes completos de NB-4.
+    - Professor.
+    - Cíntia. Eu estava procurando por vocês. Vocês precisam vir com a gente.
+    - Isso na sua mão é a nova cepa do coronavírus? - Cíntia pergunta, apontando para a pequena caixa 
+    térmica com o símbolo de perigo biológico.
+    Os professores Pepas e Minosse não dizem nada. Não precisam, todos sabem a verdade.
+    - Vocês tem duas opções, ou vocês vem com a gente, vamos precisar de boas geneticistas como vocês no nosso 
+    novo empreendimento.
+    - Que seria... - {nome} questiona.
+    - Bioterrorismo, claro. Milhões de dólares por uma única variante. - Pepas responde.
+    - Ok, hora de tomar uma decisão. - diz uma terceira voz. O professor Gonçolo surgiu atrás dos outros dois,
+    também vestido em trajes NB-4.
+    Trazia em uma das mãos uma caixa térmica ainda menor que a primeira, e na outra uma pistola.
+    - Ou vocês vem com a gente, ou morrem. Escolham.
+    O que você prefere?
+    1. Se juntar aos professores geneticistas de moral questionável (e ganhar muito dinheiro);
+    2. Negar a proposta e tentar fugir;
+    3. Negar a proposta e tentar impedi-los de fugir.
+
+    ''')
     escolha_e = int(input("Digite o número da sua escolha de movimento:\n- "))
 
     if escolha_e == 1:
-        print (''' escrever a situação de morte 5
-        ============================
-        FIM DE JOGO PRA VOCÊ [¬º-°]¬
-        ============================
+        print (f'''
+        - Ok, nós vamos. Mas eu quero receber pelo trabalho.
+        - E receber muito. - {nome} complementa.
+        Parabéns, você venceu o jogo e acaba de se tornar uma bioterrorista responsável pela queda de governos
+        e aniquilação de milhares de pessoas, até o colapso irreversível da humanidade.
+        Mas pelo menos ficaram ricos antes.
+        ======================================
+        VOCÊ (talvez) VENCEU, PARABÉNS [¬º-°]¬
+        ======================================
         ''')
     
     elif escolha_e == 2:
         pergunta_6 ()
+    
+    elif escolha_e == 3:
+        print('''
+        - Não. - {nome} responde. - Nem nós, nem vocês.
+        E do nada você ataca os professores. 
+        Pepas, assustado, se desequilibra e cai. A caixa térmica contendo a cepa se abre e o tubo de ensaio rola
+        pelo chão, aberto. Vocês se encaram por um minuto e saem correndo.
+        - Vamo, rápido. A saída é ali.
+        Você e Cíntia saem pela porta lateral onde entraram.
+        - Eu não tô com a chave!
+        - Vamo a pé, não tem problema, vamo só sair daqui.
+        E vocês fogem.
+        Até onde sabemos, nunca foram encontradas pela organização criminosa responsável pela liberação do vírus
+        que posteriormente aniquilou a humanidade.
+        Até onde sabemos, vocês sobreviveram pra contar a história.
+        =======================================================
+        VOCÊS FUGIRAM E (talvez) SOBREVIVERAM, PARABÉNS [¬º-°]¬
+        =======================================================
+        ''')
     
     else:
         print('''Você digitou um número fora das nossas opções de jogada, por favor, recomece
         o jogo e se atente às regras [¬º-°]¬''')
 
 def pergunta_6 ():
-    print(''' ''')
-    escolha_f = int(input("Digite o número da sua escolha de movimento:\n- "))
-
-    if escolha_f == 1:
-        print (''' escrever a situação de morte 6
-        ============================
-        FIM DE JOGO PRA VOCÊ [¬º-°]¬
-        ============================
-        ''')
+    print(f''' 
+    - Não. - {nome} responde. - Mas vocês podem ir, não ligamos, só queremos sobreviver.
+    E do nada saem correndo. 
+    Pepas e Minosse encaram assustados, mas Gonçolo, com mais presença de espírito, puxa a trava e aperta
+    o gatilho. Vocês sentem a dor do projétil nas costas mas continuam correndo. 
+    - Vamo, rápido. A saída é ali.
+    Você e Cíntia saem pela porta lateral onde entraram.
+    Mas a perda de sangue se torna pronunciada demais pra que possam continuar. Alguns minutos mais tarde um
+    grupo de estudantes, fugindo do laboratório de genética em chamas, encontra seus corpos, mas não param pra
+    ajudar. Todos estão desesperados.
+    É o prenúncio do colapso da humanidade.
+    ===================================================
+    FIM DE JOGO PRA VOCÊ, MORTE POR ASSASSINATO [¬º-°]¬
+    ===================================================
+    ''')
     
-    elif escolha_f == 2:
-        print (''' PARABÉNS, VOCÊ GANHOU O JOGO ''')
-    
-    else:
-        print('''Você digitou um número fora das nossas opções de jogada, por favor, recomece
-        o jogo e se atente às regras [¬º-°]¬''')
-
-#
-
 print ('''
 ====================================
 .     APOCALIPSE ZUMBI [¬º-°]¬     .
