@@ -1,5 +1,5 @@
 # Apocalipse Zumbi
-## Um jogo rápido de tomada de decisões
+## Um jogo rápido de tomada de decisões 🎯
 ---
 Jogo rápido desenvolvido em Python baseado no estilo árvore de decisões, elaborado para o projeto de conclusão do Módulo 1 da turma VAMO AÍ, em parceria do iFood com a Resília.
 ---
@@ -19,8 +19,8 @@ Jogo rápido desenvolvido em Python baseado no estilo árvore de decisões, elab
       ==================================================
 
 ### Informações importantes
-* Este jogo contém mais de um final;
-* Cada final é dependente das escolhas do jogador durante o jogo;
-* Não é possível voltar atrás na história, o jogo é unidirecional.
+❌ Este jogo contém mais de um final;
+❌ Cada final é dependente das escolhas do jogador durante o jogo;
+❌ Não é possível voltar atrás na história, o jogo é unidirecional.
 
 ### Bom jogo! :smile:
